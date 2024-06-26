@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tashen Pillay - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+</head>
+<body>
+    <div id="landing-page" class="landing-page">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="bgv.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="landing-content">
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Tashen Pillay" class="profile-pic-landing">
+            </div>
+            <section id="profile">
+                <h2>Profile</h2>
+                <p>Hello, I'm Tashen, and I'm thrilled to share how I can contribute to your organization! At just 20 years old, I have developed a profound passion for technology from an early age, which naturally led me to pursue a career in the IT sector.</p>
+                <p>I am highly computer literate and a critical thinker, with a strong attention to detail and an unwavering determination to achieve perfection in everything I do. Currently, I am dedicated to pursuing a Bachelor's degree in Computer Science at Varsity College.</p>
+                <p>My enthusiasm for technology, combined with my skills and qualities, make me a valuable asset to any forward-thinking business. I am eager to bring my expertise and passion to your team, contributing to innovative solutions and driving success.</p>
+            </section>
+            <button onclick="showFullCV()">Continue</button>
+        </div>
+    </div>
+
+    <div id="full-cv" class="full-cv" style="display: none;">
+        <header>
+            <div class="header-content">
+                <img src="profile.jpg" alt="Tashen Pillay" class="profile-pic-header">
+                <div>
+                    <h1>Tashen Pillay</h1>
+                    <p>Computer Science Student</p>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <h2>Welcome to My Professional Portfolio</h2>
+            <p>Hello, I'm Tashen Pillay, a passionate Computer Science student from Durban, South Africa. Welcome to my professional portfolio where I showcase my skills, experience, and education in the IT sector. I am dedicated to technology and committed to excellence in everything I do.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>Hello, I'm Tashen, a 20-year-old third-year Computer Science student at Varsity College with a robust foundation in programming and IT. With two years of experience, I bring a unique blend of technical skills and insights. My passion for technology drives me to continuously improve and innovate, making me highly computer literate, detail-oriented, and a critical thinker.</p>
+                <p>I have hands-on experience in programming, database management, network engineering, software development, cloud computing, and security, which I have successfully applied in various academic and personal projects. I am currently enhancing my knowledge and skills through coursework that includes system analysis, IT project management, and open source coding.</p>
+                <p>My commitment to excellence and continuous learning ensures that I stay at the forefront of technological advancements. I am eager to bring my expertise to a forward-thinking organization where I can contribute to innovative solutions and drive success.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card">
+                <div class="skills-chart">
+                    <div class="skill">
+                        <div class="circle" data-percentage="73"><strong></strong></div>
+                        <p>Programming: 73%</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="64"><strong></strong></div>
+                        <p>Database Management: 64%</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="78"><strong></strong></div>
+                        <p>Network Engineering: 78%</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="73.5"><strong></strong></div>
+                        <p>Software Development: 73.5%</</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="69"><strong></strong></div>
+                        <p>Cloud Computing: 69%</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="66"><strong></strong></div>
+                        <p>Security: 66%</p>
+                    </div>
+                    <div class="skill">
+                        <div class="circle" data-percentage="65"><strong></strong></div>
+                        <p>Project Management: 65%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card">
+                <h3><i class="fas fa-laptop"></i> Web Design</h3>
+                <p>2019 - Present</p>
+                <ul>
+                    <li>Designing and developing websites using Shopify, Wix, and Wordpress platforms.</li>
+                </ul>
+                <h3><i class="fas fa-bullhorn"></i> Digital Marketing</h3>
+                <p>2020</p>
+                <ul>
+                    <li>Completed the Legendary Marketer course.</li>
+                </ul>
+                <h3><i class="fas fa-car"></i> Toyota Prospection</h3>
+                <p>2023</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3><i class="fas fa-school"></i> Secondary School</h3>
+                <p>Kharwastan Secondary School, 2017 - 2021</p>
+                <p>Bachelors Pass in Matric, 2021</p>
+                <h3><i class="fas fa-university"></i> Bachelor of Computer and Information Sciences in Application Development</h3>
+                <p>Varsity College, 2022 - Present</p>
+                <h4>Semester 1</h4>
+                <ul>
+                    <li>Programming 1A (PROG5121) - Passed</li>
+                    <li>Programming Logic and Design (PRLD5121) - Passed</li>
+                    <li>Network Engineering 1A (NWEG5111) - Passed</li>
+                    <li>Mathematical Principles for Computer Science (MAPC5112) - Passed</li>
+                </ul>
+                <h4>Semester 2</h4>
+                <ul>
+                    <li>Network Engineering 1B (NWEG5122) - Passed</li>
+                    <li>IT Professional Practice (ITPP5112) - Passed</li>
+                    <li>Programming 1B (PROG6112) - Passed</li>
+                    <li>Principles of Security (PRSE6212) - Passed</li>
+                </ul>
+                <h4>Semester 3</h4>
+                <ul>
+                    <li>System Analysis and Design (SAND6221) - Passed</li>
+                    <li>Programming 2A (PROG6221) - Passed</li>
+                    <li>Databases (DBAS6211) - Passed</li>
+                    <li>Cloud Development A (CLDV6211) - Passed</li>
+                </ul>
+                <h4>Semester 4</h4>
+                <ul>
+                    <li>Software Engineering (SOEN6222) - Passed</li>
+                    <li>Programming 2B (PROG6212) - Passed</li>
+                    <li>Cloud Development B (CLDV6212) - Passed</li>
+                    <li>Advanced Databases (ADDB7311) - Passed</li>
+                </ul>
+                <h4>Semester 5</h4>
+                <ul>
+                    <li>Programming 3A (PROG7311) - In Progress</li>
+                    <li>Open Source Coding (Introduction) (OPSC7311) - In Progress</li>
+                    <li>IT Project Management (IPMA6212) - In Progress</li>
+                    <li>Introduction to Research (INRS7321) - In Progress</li>
+                </ul>
+                <h4>Semester 6</h4>
+                <ul>
+                    <li>Work Integrated Learning 3 (XBCAD7319) - In Progress</li>
+                    <li>Programming 3B (PROG7312) - In Progress</li>
+                    <li>Open Source Coding (Intermediate) (OPSC7312) - In Progress</li>
+                    <li>Application Development Security (APDS7311) - In Progress</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="card">
+                <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +27 61 0130 309</p>
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:Tashenpillay7@gmail.com">Tashenpillay7@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tashen-pillay-78b272247" target="_blank">Tashen Pillay</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Durban, South Africa</p>
+                <h3>References</h3>
+                <p><i class="fas fa-user-tie"></i> <strong>Kovilan Pillay</strong></p>
+                <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +27 83 651 3654</p>
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:Kpillay5@toyota.co.za">Kpillay5@toyota.co.za</a></p>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="card">
+                <ul>
+                    <li><i class="fas fa-futbol"></i> Playing and watching Soccer</li>
+                    <li><i class="fas fa-car"></i> Attending car shows/events</li>
+                    <li><i class="fas fa-car-alt"></i> Building model cars</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Tashen Pillay. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function showFullCV() {
+            document.getElementById('landing-page').style.display = 'none';
+            document.getElementById('full-cv').style.display = 'block';
+            document.querySelector('header').style.display = 'flex'; // Show header when full CV is displayed
+        }
+
+        $(document).ready(function(){
+            $('.circle').each(function(){
+                let percentage = $(this).data('percentage');
+                $(this).circleProgress({
+                    value: percentage / 100,
+                    size: 80,
+                    fill: {
+                        gradient: ["#003366", "#007BFF"]
+                    },
+                    animation: { duration: 10200, easing: "circleProgressEasing" }
+                }).on('circle-animation-progress', function(event, progress, stepValue){
+                    $(this).find('strong').text(String(parseInt(stepValue * 100)) + '%');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
